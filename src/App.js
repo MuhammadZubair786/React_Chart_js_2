@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import LineChart from './Charts/Line'
+import MultiAxisLine from './Charts/Multi';
+import VerticalBar from './Charts/VerticalBar';
+import Horizontal_Bar from './Charts/Horizontal_Bar'
+import MultiBarChart from './Charts/MultBar'
+import PieChart from './Charts/PieChart';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <LineChart />
+     <MultiAxisLine />
+     <VerticalBar/>
+     <Horizontal_Bar/>
+     <MultiBarChart />
+     <PieChart/>
     </div>
   );
 }
