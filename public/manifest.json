@@ -1,22 +1,17 @@
 {
-  "name": "Chart App",
-  "short_name": "User Easily Access",
-  "theme_color": "#216ff3",
-  "background_color": "#2196f3",
-  "display": "browser",
+  "name": "Word Hunt",
+  "short_name": "Word Hunt",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
       "src": "maskable.png",
+      "sizes": "196x196",
       "type": "image/png",
-      "sizes": "192x192",
-      "purpose":"any maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "logo192.png",
